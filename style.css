@@ -1,0 +1,402 @@
+@import url(http://www.fontsquirrel.com/fonts/league-spartan);
+@import url(http://www.fontsquirrel.com/fonts/montserrat);
+body {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+  background-position: center;
+  }
+
+  .body {
+    background-image: url('image/background.jpg');
+    background-size:cover;
+  background-position: center;
+  }
+  
+  .txtsub{
+padding-left: 150px;
+margin-top: 0;
+color: #ffffff;
+font-family:'Montserrat', Arial;
+font-weight: bold;
+font-size: 70px;
+  }
+  .txthead{
+    padding-left: 150px;
+    color: #ffffff;
+font-family:'Montserrat', Arial;
+font-weight: bold;
+font-size: 50px;
+  }
+  .txtindex{
+    color: #31E1F7;
+font-family:'League Spartan', Arial;
+font-weight: bold;
+font-size: 65px;
+padding-top: 5%;
+
+  }
+.txtindex2{
+    color: #ffffff;
+font-family:'Montserrat', Arial;
+font-weight: bold;
+font-size: 60px;
+padding-top: 0;
+
+  }
+
+  .txtindex3{
+    color: #31E1F7;
+font-family:'Montserrat', Arial;
+font-weight: bold;
+font-size: 25px;
+padding-left: 0;
+  }
+  .txthastag{
+    padding-left: 150px;
+    color: #ffffff;
+    font-family:'Montserrat', Arial;
+    font-size: 20px;
+    
+  }
+
+  .readmore{
+    padding-top: 15px;
+  }
+ 
+  .title1 {
+    margin-bottom: 1rem;
+    font-family:'Montserrat', Arial;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: bold;
+   }
+
+   .card1 {
+    width: 800px;
+    height:250px;
+    border-radius: 0px 0px 20px 20px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #161853;
+   }
+
+   .card2 {
+    width: 800px;
+    height:250px;
+    border-radius:  20px 20px 20px 20px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #161853;
+   }
+
+
+   .card-image1 {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+  background-position: center;
+    width: 800px;
+    height:350px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .subindex{
+    color: #ffffff;
+    font-family:'Montserrat', Arial;
+    font-size: 10px;
+  }
+  footer{
+padding-top: 300px;
+color: #ffffff;
+
+  }
+  .rm{
+    padding-top: 200px;
+  }
+
+  .header{
+    margin-top: 0;
+    font-family:'League Spartan', sans-serif;
+    font-size: 15px;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:active {
+    color: #292C6D;
+    text-decoration: none;
+  }
+    
+/* login */
+.card {
+    width: 400px;
+    height:350px;
+    border-radius: 0 0 20px 20px;
+    padding: 1.9rem 1.2rem;
+    text-align: center;
+    background: #161853;
+   }
+
+   .card-image {
+    background-image: url('image/background.jpg');
+    background-size: cover;
+  background-position: center;
+    width: 400px;
+    height:200px;
+    border-radius: 20px 20px 0 0;
+  }
+
+   /*Inputs*/
+   .field {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    background-color: #292C6D;
+    border-radius: 4px;
+    padding: .5em 1em;
+   }
+   
+   .input-icon {
+    height: 1em;
+    width: 1em;
+    fill: #ffeba7;
+   }
+   
+   .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+   }
+   
+   /*Text*/
+   .title {
+    margin-bottom: 1rem;
+    font-family:'Montserrat', Arial;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #f5f5f5;
+   }
+   
+   /*Buttons*/
+   .btn {
+    margin: 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    padding: 0.6em 1.2em;
+    background-color: #ffeba7;
+    color: #5e6681;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+   }
+   
+   .btn-link {
+    color: #f5f5f5;
+    display: block;
+    font-size: .75em;
+    transition: color .3s ease-out;
+   }
+   
+   /*Hover & focus*/
+   .field input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   
+   .btn:hover {
+    background-color: #90E0EF;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 (#90E0EF/ 20%);
+   }
+   
+   .btn-link:hover {
+    color: #ffeba7;
+   }
+   
+   .cssbuttons-io-button {
+    background: #31E1F7;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #ffffff;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+   }
+   
+   .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #CAF0F8;
+    right: 0.3em;
+    transition: all 0.3s;
+   }
+   
+   .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+   }
+   
+   .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #90E0EF;
+   }
+   
+   .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+   }
+   
+   .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+   }
+   
+.imgabout{
+    background-color: #161853;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 30px;
+}
+
+.txtabout{
+    background-image: url('image/background.jpg');
+    background-size: cover;
+  background-position: center;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 30px;
+}
+.txtabout p{
+        color: #72147E;
+        font-family:'Montserrat', Arial;
+        font-size: 30px;
+        font-weight: bold;
+}
+
+.tabel{
+    padding-top: 15px;
+    
+}
+
+.tabellogin{
+    padding-top: 35px;
+}
+
+
+   * {box-sizing:border-box}
+
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+    
+   }
+   
+   /* Hide the images by default */
+   .mySlides {
+     display: none;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   /* On hover, add a black background color with a little bit see-through */
+   .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+   }
+   
+   /* Caption text */
+   .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+   }
+   
+   /* Number text (1/3 etc) */
+   .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+   }
+   
+   /* The dots/bullets/indicators */
+   .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+   }
+   
+   .active, .dot:hover {
+     background-color: #717171;
+   }
+   
+   /* Fading animation */
+   .fade {
+     animation-name: fade;
+     animation-duration: 1.5s;
+   }
+   
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
+
+   social-media a svg {
+    width: 1.1rem;
+    fill: currentColor;
+  }
